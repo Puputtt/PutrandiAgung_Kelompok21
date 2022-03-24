@@ -12,6 +12,9 @@
 def tidak_ada_uang():
     return("Maaf kamu tidak memiliki uang yang cukup")
 
+def sisa_uang():
+    return("Sisa uang mu adalah Rp." + str(uang))
+
 print("----------- Warteg'21 -----------")
 
 uang = int (input('Masukan jumlah uang anda : '))
@@ -90,3 +93,6 @@ except:
                 print("Selamat menikmati!")
             except:
                 print("Anda tidak membeli apapun")
+                
+                
+print(sisa_uang())
