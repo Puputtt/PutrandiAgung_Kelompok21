@@ -154,3 +154,4 @@ if(pesanan1 == True or pesanan2 == True or pesanan3 == True):
     print(sisa_uang())
 else:
     print("Kamu tidak memesan apapun")
+print("Sekian Tugas Modul 4")
