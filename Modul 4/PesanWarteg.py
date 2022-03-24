@@ -35,9 +35,9 @@ while (pesan_makanan == True):
         totalchoice1 = int(input("Berapa banyak porsi yang ingin kamu beli? "))
         if(totalchoice1 >= 50):
             print("Maaf warteg kami tidak menyediakan porsi sebanyak itu")
-        elif(uang >= (totalchoice1 * makanan[choice1-1][1])):
-            uang = uang - (totalchoice1 * makanan[choice1-1][1])
-            print("Kamu telah membeli menu " + makanan[choice1-1][0] + " sebanyak " + str(totalchoice1) + " porsi dan kamu memiliki sisa uang Rp." + str(uang))
+        elif(uang >= (totalchoice1 * makanan[choice1-2][1])):
+            uang = uang - (totalchoice1 * makanan[choice1-2][1])
+            print("Kamu telah membeli menu " + makanan[choice1-2][0] + " sebanyak " + str(totalchoice1) + " porsi dan kamu memiliki sisa uang Rp." + str(uang))
             pesan_makanan = False
         else:
             tidak_ada_uang()
