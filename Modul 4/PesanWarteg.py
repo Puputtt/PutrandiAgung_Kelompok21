@@ -14,7 +14,7 @@ def tidak_ada_uang():
 
 print("----------- Warteg'21 -----------")
 
-uang = input('Masukan jumlah uang anda : ')
+uang = int (input('Masukan jumlah uang anda : '))
 makanan = ["Rendang",16000], ["Ayam Bakar",15000], ["Ayam Goreng", 15000], ["Nasi Goreng", 13000]
 minuman = ["Teh Manis", 6000], ["Air Mineral", 3000], ["Teh Tawar", 5000], ["Jus Jeruk", 9000]
 pesan_makanan = True
