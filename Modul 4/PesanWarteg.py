@@ -8,8 +8,7 @@
 # Kelompok: 21
 # Shift: 2
 # ==================================
-from threading import local
-from method_modul4 import *
+from MethodWarteg import *
 
 def tidak_ada_uang():
     return("Maaf kamu tidak memiliki uang yang cukup")
