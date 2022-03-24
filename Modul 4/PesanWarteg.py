@@ -25,7 +25,7 @@ minumanlen = len(minuman)
 
 #Print List Makanan
 for i in range (makananlen):
-    print(str(i+1) + ". " + makanan[i-1][0] + " (Rp." + str(makanan[i-1][1]) + ")")
+    print(str(i+1) + ". " + makanan[i][0] + " (Rp." + str(makanan[i][1]) + ")")
 
 while (pesan_makanan == True):
     choice1 = int(input("Pilih menu makanan yang diinginkan: "))
@@ -44,7 +44,7 @@ while (pesan_makanan == True):
 
 #Print List Minuman
 for i in range (minumanlen):
-    print(str(i+1) + ". " + minuman[i-1][0] + " (Rp." + str(minuman[i-1][1]) + ")")
+    print(str(i+1) + ". " + minuman[i][0] + " (Rp." + str(minuman[i][1]) + ")")
 
 while (pesan_minuman == True):
     choice2 = int(input("Pilih menu minuman yang diinginkan: "))
