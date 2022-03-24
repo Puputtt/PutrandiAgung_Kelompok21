@@ -6,6 +6,7 @@ class Pesanan:
 
     def tambah_pesanan(self, menu):
         self.__list__pesanan.append(menu)
+        
     
     def tambah_total(self, total):
         self.__total_pesanan.append(total)
