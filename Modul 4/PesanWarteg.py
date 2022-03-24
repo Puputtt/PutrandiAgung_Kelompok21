@@ -10,8 +10,8 @@
 # ==================================
 from MethodWarteg import *
 
-def tidak_ada_uang():
-    return("Maaf kamu tidak memiliki uang yang cukup")
+def tidak_ada_uang(jenis):
+    return("Maaf kamu tidak memiliki uang yang cukup untuk memesan " + jenis )
 
 def sisa_uang():
     return("sisa uang mu adalah Rp." + str(uang))
@@ -65,7 +65,7 @@ while (pesan_makanan == True):
             pesanan1 = True
             pesan_makanan = False
         else:
-            print(tidak_ada_uang() + " coba pesan menu lain")
+            print(tidak_ada_uang(makanan) + " coba pesan menu lain")
 
 #Print List Minuman
 print("---------------------------------")
@@ -96,7 +96,7 @@ while (pesan_minuman == True):
             pesan.tambah_total(totalchoice2)
             pesanan2 = True
         else:
-           print(tidak_ada_uang() + " coba pesan menu lain")
+           print(tidak_ada_uang(minuman) + " coba pesan menu lain")
 
 #Print list Tambahan
 print("---------------------------------")
@@ -127,7 +127,7 @@ while (pesan_tambahan == True):
             pesan.tambah_total(totalchoice3)
             pesanan3 = True
         else:
-            print(tidak_ada_uang() + " coba pesan menu lain")
+            print(tidak_ada_uang(tambahan) + " coba pesan menu lain")
 
 # Ingin dibawa pulang / makan di tempat
 print("---------------------------------")
