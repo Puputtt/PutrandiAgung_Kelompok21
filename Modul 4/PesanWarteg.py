@@ -85,5 +85,8 @@ except:
             print("\nKamu telah memesan " + makanan[choice1-1][0] + " " + str(totalchoice1) + " porsi")
             print("Selamat menikmati!")
         except:
-            print("\nKamu telah memesan " + minuman[choice2-1][0] + " " + str(totalchoice2) + " buah")
-            print("Selamat menikmati!")
+            try:
+                print("\nKamu telah memesan " + minuman[choice2-1][0] + " " + str(totalchoice2) + " buah")
+                print("Selamat menikmati!")
+            except:
+                print("Anda tidak membeli apapun")
